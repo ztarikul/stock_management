@@ -223,7 +223,7 @@
     <!-- @method('DELETE') -->
       
       <td>{{ ++$rows }}</td>
-      <td>{{ $stock->product->name }}</td>
+      <td>{{ $stock->product->p_name }}</td>
       <td>{{ $stock->category->name}}</td>
       <td>{{ $stock->qnty}}</td>
       <td><a href="{{route('stock.edit', $stock->id)}}" class="btn btn-warning btn-sm">{{trans('lang.edit')}}</a></td>
